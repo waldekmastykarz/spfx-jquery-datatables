@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-jquery-datatables-client-side-solution",
+    "id": "0615b8b5-dece-41f9-badc-b78c75fa0619",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-jquery-datatables.sppkg"
+  }
+}

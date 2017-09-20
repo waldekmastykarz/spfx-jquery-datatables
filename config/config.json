@@ -1,0 +1,22 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jquery-data-tables-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jqueryDataTables/JqueryDataTablesWebPart.js",
+          "manifest": "./src/webparts/jqueryDataTables/JqueryDataTablesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "https://code.jquery.com/jquery-1.12.4.min.js",
+    "datatables.net": "https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js",
+    "moment": "https://momentjs.com/downloads/moment.min.js"
+  },
+  "localizedResources": {
+    "JqueryDataTablesWebPartStrings": "lib/webparts/jqueryDataTables/loc/{locale}.js"
+  }
+}
